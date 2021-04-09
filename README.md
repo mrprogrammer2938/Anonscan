@@ -2,15 +2,19 @@
 --------------
 This code write by (Ms.nope)
 --------------
+
 **How to installing**
 ```
-usage:
-
 git clone https://github.com/msprogrammer2938/Anonscan.git
+
 cd Anonscan
+
 chmod +x install.sh
+
 ./install.sh
+
 python3 scan.py
+
 ```
 
 #Anonscan logo:
