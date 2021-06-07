@@ -1,8 +1,9 @@
 #!/usr/bin/bash
-# This code write (Ms.nope)
+# This code write (Mr.nope)
 # installing
 clear
 echo "installing..."
+sleep 2
 echo "      __    _  _  _____  _  _      ___   ___    __    _  _ "
 echo "     /__\  ( \( )(  _  )( \( )    / __) / __)  /__\  ( \( )"
 echo "    /(  )\  )  (  )(_)(  )  (     \__ \( (__  /(  )\  )  ( "
@@ -17,3 +18,5 @@ echo ""
 echo "finish!"
 echo ""
 echo "usage: python3 scan.py"
+echo ""
+exit 1
