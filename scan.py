@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# This code write by (Ms.nope)
+# This code write by (Mr.nope)
 # anonscan
 # version 
 from colorama import Fore,init
@@ -7,6 +7,7 @@ import os
 import subprocess
 import time
 import socket
+import sys
 init()
 class color:
     green = '\033[92m'
@@ -92,7 +93,10 @@ def con():
         exit(1)
     else:
         con()
-anonscan()
-
-
-    
+if __name__ == '__main__':
+    try:
+        anonscan()
+    except KeyboardInterrupt:
+        print("\nCtrl + C")
+        print("\nStoping...,Exiting...!")
+        sys.exit()
